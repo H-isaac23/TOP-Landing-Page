@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #1f2937;
+  --fsize-hero-main: 48px;
+  --fweight-hero-main: 900;
+  --color-hero-main: #f9faf8;
+  --fsize-hero-secondary: 18px;
+  --color-hero-secondary: #e5e7eb;
+  --fsize-header-logo: 24px;
+
+  --button-color: #3882f6;
+  --fsize-info-header: 36px;
+  --fweight-info-header: 900;
+  --color-info-header: #1f2937;
+
+  --quote-bg-color: #e5e7eb;
+  --fsize-quote: 36px;
+  --fweight-quote: 300;
+  --color-quote: #1f2937;
+}
