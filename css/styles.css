@@ -162,3 +162,39 @@ header .logo {
   text-align: end;
   font-style: normal;
 }
+
+/* action section styles */
+
+.action-card {
+  background-color: var(--button-color);
+  color: white;
+  margin: 6em;
+  padding: 2.75em 2em;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-text {
+  margin-left: 6em;
+}
+
+.action-text .main {
+  font-weight: var(--fweight-hero-main);
+}
+
+.action-text .subtext {
+  color: var(--color-hero-secondary);
+}
+
+.action-sign-up {
+  color: white;
+  background-color: var(--button-color);
+  border: solid hsla(0, 0%, 100%, 0.8) 2px;
+  border-radius: 8px;
+  outline-style: none;
+  padding: 0.3em 1.75em;
+  margin-right: 6em;
+}
