@@ -198,3 +198,13 @@ header .logo {
   padding: 0.3em 1.75em;
   margin-right: 6em;
 }
+
+/* footer styles */
+
+footer {
+  text-align: center;
+  background-color: var(--bg-color);
+  color: var(--color-hero-secondary);
+  font-size: var(--fsize-hero-secondary);
+  padding: 2em 0;
+}
