@@ -110,7 +110,7 @@ header .logo {
 /* Info section css */
 
 .info-section {
-  margin-bottom: 6em;
+  margin-bottom: 8em;
 }
 
 .info-header {
@@ -126,17 +126,39 @@ header .logo {
   justify-content: center;
   gap: 3em;
   color: var(--color-info-header);
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 .item {
-  width: 150px;
+  width: 175px;
   text-align: center;
 }
 
 .item img {
   width: 100%;
   height: auto;
-  border: var(--button-color) 5px solid;
+  border: var(--button-color) 4px solid;
   border-radius: 12px;
+}
+
+/* quote section styles */
+
+.quote-section {
+  background-color: var(--quote-bg-color);
+  padding: 10em 19em;
+}
+
+.quote {
+  font-size: var(--fsize-quote);
+  font-weight: var(--fweight-quote);
+  font-style: italic;
+  color: var(--color-quote);
+  text-align: justify;
+}
+
+.author {
+  font-size: var(--fsize-hero-secondary);
+  font-weight: 700;
+  text-align: end;
+  font-style: normal;
 }
