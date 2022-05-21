@@ -106,3 +106,37 @@ header .logo {
   margin-top: 12px;
   font-weight: 600;
 }
+
+/* Info section css */
+
+.info-section {
+  margin-bottom: 6em;
+}
+
+.info-header {
+  font-size: var(--fsize-info-header);
+  font-weight: var(--fweight-info-header);
+  color: var(--color-info-header);
+  text-align: center;
+  margin-top: 1em;
+}
+
+.info-items {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  color: var(--color-info-header);
+  margin-top: 3em;
+}
+
+.item {
+  width: 150px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border: var(--button-color) 5px solid;
+  border-radius: 12px;
+}
